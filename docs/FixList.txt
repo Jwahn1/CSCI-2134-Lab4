@@ -1,0 +1,51 @@
+Fix List
+==========
+
+Student1BannerID:
+Student1Name:
+Student1CSID:
+
+You may work as a group with a second student but do not have to.
+Only one student in a group should submit the lab.
+
+Student2BannerID:
+Student2Name:
+Student2CSID:
+
+For each bug, please provide the following information:
+  - location
+  - what was fixed
+  - amount of time it took
+
+Example:
+Defect 0:
+  Location: getWidth(): line 261
+  Fix: wrong return value, should be width not height
+  Time: 5 minutes
+
+Defect 1:
+  Location: 
+  Fix: 
+  Time: 
+
+Defect 2:
+  Location: 
+  Fix: 
+  Time: 
+
+
+*********** ADD AS MANY MORE AS NEEDED *******************
+
+ANALYSIS:
+
+1. Compute how long it took you to complete all the bug fixes and the average time per bug fix.
+
+Total time:
+Number of bugs:
+Average time per bug fix:
+
+2. What was the hardest bug you fixed and what made it hard to fix?
+
+
+3. How consistent was your time to fix each bug? What factors may have affected that consistency?
+
