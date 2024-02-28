@@ -1,9 +1,9 @@
 Fix List
 ==========
 
-Student1BannerID:
-Student1Name:
-Student1CSID:
+Student1BannerID:b00935618
+Student1Name:Javier Wahn
+Student1CSID:zavaleta
 
 You may work as a group with a second student but do not have to.
 Only one student in a group should submit the lab.
@@ -23,15 +23,24 @@ Defect 0:
   Fix: wrong return value, should be width not height
   Time: 5 minutes
 
+12:32pm
+
 Defect 1:
-  Location: 
-  Fix: 
-  Time: 
+  Location:line 98
+  Fix: remove unnecessary semicolon
+  Time: 2 seconds
 
 Defect 2:
-  Location: 
-  Fix: 
-  Time: 
+  Location: line 271
+  Fix: change return value to width
+  Time: 5 seconds
+
+ 12:38
+
+ Defect 3:
+   Location: line 271
+   Fix: change return value to width
+   Time: 5 seconds
 
 
 *********** ADD AS MANY MORE AS NEEDED *******************
