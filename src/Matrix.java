@@ -3,7 +3,6 @@
  *  Author: Alex Brodsky
  *  Date: October 1, 2019
  *  Purpose: CSCI 2134, Lab 4
- *
  *  Description: This class implements Matrix objects for manipulating matrices.
  */
 
@@ -91,12 +90,12 @@ public class Matrix {
         }
 
         // Compare each element in both matrices
-        for (int i = 0; i <= height; i++) {
-            for (int j = 0; j <= width; j++) {
+        for (int i = 0; i < height; i++) {
+            for (int j = 0; j < width; j++) {
                 if (matrix[i][j] != a.matrix[i][j]) {
                     // at least one element is not the same in these matrices
                     return false;
-                };
+                }
             }
         }
 
@@ -269,6 +268,6 @@ public class Matrix {
      * Return the number of columns in the matrix.
      */
     public int getWidth() {
-        return height;
+        return width;
     }
 }

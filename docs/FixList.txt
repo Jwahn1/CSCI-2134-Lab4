@@ -35,14 +35,20 @@ Defect 2:
   Fix: change return value to width
   Time: 5 seconds
 
- 12:38
+ 12:41
 
  Defect 3:
-   Location: line 271
-   Fix: change return value to width
-   Time: 5 seconds
+   Location: line 93,94
+   Fix: changed <= to < in the for loop values, this was causing an off by one error
+   Time: 3 minutes
 
+12:44
 
+ Defect 4:
+   Location: line 93,94
+   Fix: changed <= to < in the for loop values, this was causing an off by one error
+   Time: 3 minutes
+   
 *********** ADD AS MANY MORE AS NEEDED *******************
 
 ANALYSIS:
