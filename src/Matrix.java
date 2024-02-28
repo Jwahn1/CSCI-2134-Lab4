@@ -112,7 +112,7 @@ public class Matrix {
         // Negate each element in the matrix
         for (int i = 0; i < height; i++) {
             for (int j = 0; j < width; j++) {
-                matrix[i][j] = -matrix[j][i];
+                matrix[i][j] = -matrix[i][j];
             }
         }
     }
@@ -242,7 +242,7 @@ public class Matrix {
      */
     public double getElem(int i, int j) {
         // return corresponding entry in matrix.
-        return matrix[i][j];
+        return matrix[i-1][j-1];
     }
 
     /**
@@ -254,7 +254,7 @@ public class Matrix {
      */
     public void setElem(int i, int j, double v) {
         // Set the corresponding entry in matrix to v.
-        matrix[i][j] = v;
+        matrix[i-1][j-1] = v;
     }
 
     /**

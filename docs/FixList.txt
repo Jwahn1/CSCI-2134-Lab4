@@ -45,10 +45,30 @@ Defect 2:
 12:44
 
  Defect 4:
-   Location: line 93,94
-   Fix: changed <= to < in the for loop values, this was causing an off by one error
-   Time: 3 minutes
-   
+   Location: line 115
+   Fix: swapped i and j in the negated matrix so values are where they should be
+   Time: 5 minutes
+
+12:49
+
+ Defect 4:
+   Location: line 245
+   Fix: changed get values to i-1 and j-1 to fix off by one errors
+   Time: 4 minutes
+
+12:53
+
+ Defect 5:
+   Location: line 257
+   Fix: changed get values to i-1 and j-1 to fix off by one errors
+   Time: 5 minutes
+
+12:58
+
+ Defect 6:
+   Location: line 257
+   Fix: changed get values to i-1 and j-1 to fix off by one errors
+   Time: 5 minutes
 *********** ADD AS MANY MORE AS NEEDED *******************
 
 ANALYSIS:
