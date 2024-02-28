@@ -161,7 +161,7 @@ public class Matrix {
 
             // Multiply each entry of this matrix by s and store it in res.
             for (int i = 0; i < height; i++) {
-                for (int j = 0; i < width; j++) {
+                for (int j = 0; j < width; j++) {
                     res.matrix[i][j] = s * matrix[i][j];
                 }
             }

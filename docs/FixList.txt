@@ -28,12 +28,12 @@ Defect 0:
 Defect 1:
   Location:line 98
   Fix: remove unnecessary semicolon
-  Time: 2 seconds
+  Time: 4 minutes
 
 Defect 2:
   Location: line 271
   Fix: change return value to width
-  Time: 5 seconds
+  Time: 5 minutes
 
  12:41
 
@@ -51,36 +51,45 @@ Defect 2:
 
 12:49
 
- Defect 4:
+ Defect 5:
    Location: line 245
    Fix: changed get values to i-1 and j-1 to fix off by one errors
    Time: 4 minutes
 
 12:53
 
- Defect 5:
+ Defect 6:
    Location: line 257
    Fix: changed get values to i-1 and j-1 to fix off by one errors
    Time: 5 minutes
 
 12:58
 
- Defect 6:
-   Location: line 257
-   Fix: changed get values to i-1 and j-1 to fix off by one errors
-   Time: 5 minutes
+ Defect 7:
+   Location: line 165
+   Fix: changed i< width condition to j <width
+   Time: 4 minutes
+
+1:02
+
+all tests run now
+
 *********** ADD AS MANY MORE AS NEEDED *******************
 
 ANALYSIS:
 
 1. Compute how long it took you to complete all the bug fixes and the average time per bug fix.
 
-Total time:
-Number of bugs:
-Average time per bug fix:
+Total time: 30 minutes
+Number of bugs: 6 found
+Average time per bug fix: 5 minutes
 
 2. What was the hardest bug you fixed and what made it hard to fix?
 
+getElem() bug was messing up a lot of the other function values so debugging was confusing until I tried fixing it,
+it made fixing the negate() function harder as I kept trying to fix it thinking it was independent.
 
 3. How consistent was your time to fix each bug? What factors may have affected that consistency?
 
+my time is pretty consistent at 5 minutes or less, what may have affected it was that i was looking for common errors
+like off by-one-errors or miss-inputted i's where j's should be.
